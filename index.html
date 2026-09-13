@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>曾舜晞 · 特别活动</title>
+<meta name="description" content="曾舜晞 —— 角色、音乐与近期行程。以发布会的方式，重新认识他。" />
+<meta name="theme-color" content="#000000" />
+<meta property="og:title" content="曾舜晞 · 特别活动" />
+<meta property="og:description" content="角色。音乐。行程。一次看完。" />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<!-- 滚动进度条 -->
+<div class="progress" id="progress" aria-hidden="true"><span></span></div>
+
+<!-- 顶部导航 -->
+<header class="nav" id="nav">
+  <div class="nav__bar">
+    <a class="nav__brand" href="#top">
+      <span class="nav__brand-mark" aria-hidden="true"></span>
+      <span class="nav__brand-text">曾舜晞</span>
+    </a>
+    <nav class="nav__links" aria-label="主导航">
+      <a href="#roles">角色</a>
+      <a href="#music">音乐</a>
+      <a href="#schedule">行程</a>
+      <a href="#more">更多</a>
+    </nav>
+    <a class="btn btn--ghost btn--sm nav__cta" href="#schedule">查看行程</a>
+    <button class="burger" id="burger" aria-label="打开菜单" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a href="#roles">角色</a>
+    <a href="#music">音乐</a>
+    <a href="#schedule">行程</a>
+    <a href="#more">更多</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 01 · 主视觉 -->
+  <section class="hero" id="hero">
+    <div class="aurora" aria-hidden="true">
+      <i class="aurora__blob aurora__blob--1"></i>
+      <i class="aurora__blob aurora__blob--2"></i>
+      <i class="aurora__blob aurora__blob--3"></i>
+    </div>
+
+    <div class="hero__inner">
+      <p class="eyebrow reveal">Special Event · 线上发布</p>
+      <h1 class="hero__title reveal">曾舜晞</h1>
+      <p class="hero__tagline reveal">
+        角色是他的<em class="grad">多重宇宙</em>，<br class="br-mobile" />音乐是他的<em class="grad">另一种说话方式</em>。
+      </p>
+      <p class="hero__date reveal">2026 · 敬请期待</p>
+
+      <div class="hero__actions reveal">
+        <a class="btn btn--primary" href="#roles">开始了解</a>
+        <a class="btn btn--ghost" href="#schedule">
+          近期行程
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span class="hero__scroll-text">向下滚动</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- 主视觉媒体位 -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <figure class="figure reveal">
+        <div class="media media--hero">
+          <div class="ph" data-ph="图片占位 · 主视觉 Keynote 图 / 视频封面（建议 16:9）"></div>
+        </div>
+        <figcaption class="media__caption">把这里换成发布会级别的横版主视觉：一张正脸、深色背景、留白充足。</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 02 · 一句话介绍 -->
+  <section class="section statement">
+    <div class="wrap wrap--narrow">
+      <p class="statement__text" data-scroll-fade>
+        他不是被定义的<em>一种</em>样子，<br />
+        而是<em class="grad">每一次转身都换一种光</em>。
+      </p>
+      <p class="statement__meta reveal">一句话介绍 · 占位文本，可替换为官方式人物短介绍</p>
+    </div>
+  </section>
+
+  <!-- 03 · 角色 -->
+  <section class="section" id="roles">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow reveal">Roles</p>
+        <h2 class="h2 reveal">角色。</h2>
+        <p class="lede reveal">从古装到现代，从少年感到破碎感 —— 每个角色都是一次重新开机。</p>
+      </header>
+
+      <!-- 主推角色 -->
+      <article class="feature reveal">
+        <div class="feature__media">
+          <div class="ph ph--4x5" data-ph="图片占位 · 主推角色剧照（建议 4:5）"></div>
+        </div>
+        <div class="feature__body">
+          <p class="tag">最新代表作</p>
+          <h3 class="h3">《作品名称》</h3>
+          <p class="feature__role">饰演 · 角色名</p>
+          <p class="body">
+            剧情简介占位：两三句话讲清人物弧光与看点，例如「他从前朝的废墟里走出来，带着一身不合时宜的理想」。
+          </p>
+          <ul class="chips">
+            <li class="chip">类型占位</li>
+            <li class="chip">年份占位</li>
+            <li class="chip">平台占位</li>
+          </ul>
+          <a class="link-arrow" href="#roles">查看角色详情<span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <!-- 角色网格 -->
+      <div class="grid grid--roles">
+        <article class="card reveal" style="--i:0">
+          <div class="ph ph--3x4" data-ph="角色剧照"></div>
+          <div class="card__body">
+            <h3 class="card__title">角色名 / 作品名</h3>
+            <p class="card__meta">年份 · 类型</p>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:1">
+          <div class="ph ph--3x4" data-ph="角色剧照"></div>
+          <div class="card__body">
+            <h3 class="card__title">角色名 / 作品名</h3>
+            <p class="card__meta">年份 · 类型</p>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:2">
+          <div class="ph ph--3x4" data-ph="角色剧照"></div>
+          <div class="card__body">
+            <h3 class="card__title">角色名 / 作品名</h3>
+            <p class="card__meta">年份 · 类型</p>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:3">
+          <div class="ph ph--3x4" data-ph="角色剧照"></div>
+          <div class="card__body">
+            <h3 class="card__title">角色名 / 作品名</h3>
+            <p class="card__meta">年份 · 类型</p>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:4">
+          <div class="ph ph--3x4" data-ph="角色剧照"></div>
+          <div class="card__body">
+            <h3 class="card__title">角色名 / 作品名</h3>
+            <p class="card__meta">年份 · 类型</p>
+          </div>
+        </article>
+        <article class="card card--more reveal" style="--i:5">
+          <div class="card__body card__body--more">
+            <p class="card__title">还有更多角色</p>
+            <p class="card__meta">共 <span class="grad">00</span> 部作品</p>
+            <span class="link-arrow">全部作品<span aria-hidden="true">→</span></span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 · 音乐 -->
+  <section class="section section--music" id="music">
+    <div class="wrap">
+      <header class="section__head section__head--center">
+        <p class="eyebrow reveal">Music</p>
+        <h2 class="h2 reveal">音乐。</h2>
+        <p class="lede reveal">不只是角色的声音 —— 他自己的旋律。</p>
+      </header>
+
+      <!-- 播放器展示位 -->
+      <div class="player reveal">
+        <div class="player__art">
+          <div class="ph ph--1x1" data-ph="专辑封面 (1:1)"></div>
+        </div>
+        <div class="player__panel">
+          <p class="player__label">正在播放 · 占位</p>
+          <h3 class="player__title">《歌曲名称》</h3>
+          <p class="player__artist">曾舜晞 · 专辑 / EP 名称</p>
+          <div class="player__bar" role="presentation"><span></span></div>
+          <div class="player__times"><span>00:00</span><span>00:00</span></div>
+          <div class="player__controls">
+            <button class="ctrl" aria-label="上一首"><svg viewBox="0 0 24 24"><path d="M6 5h2v14H6zM20 5v14l-11-7z"/></svg></button>
+            <button class="ctrl ctrl--play" aria-label="播放"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+            <button class="ctrl" aria-label="下一首"><svg viewBox="0 0 24 24"><path d="M16 5h2v14h-2zM4 5l11 7-11 7z"/></svg></button>
+          </div>
+          <p class="player__note">播放器为视觉占位，接入音乐平台后即可点击播放。</p>
+        </div>
+      </div>
+
+      <!-- 专辑 / 单曲 -->
+      <div class="grid grid--albums">
+        <article class="album reveal" style="--i:0">
+          <div class="ph ph--1x1" data-ph="专辑封面"></div>
+          <h3 class="album__title">专辑 / 单曲名称</h3>
+          <p class="album__meta">年份 · 类型</p>
+        </article>
+        <article class="album reveal" style="--i:1">
+          <div class="ph ph--1x1" data-ph="专辑封面"></div>
+          <h3 class="album__title">专辑 / 单曲名称</h3>
+          <p class="album__meta">年份 · 类型</p>
+        </article>
+        <article class="album reveal" style="--i:2">
+          <div class="ph ph--1x1" data-ph="专辑封面"></div>
+          <h3 class="album__title">专辑 / 单曲名称</h3>
+          <p class="album__meta">年份 · 类型</p>
+        </article>
+        <article class="album reveal" style="--i:3">
+          <div class="ph ph--1x1" data-ph="专辑封面"></div>
+          <h3 class="album__title">专辑 / 单曲名称</h3>
+          <p class="album__meta">年份 · 类型</p>
+        </article>
+      </div>
+
+      <!-- 歌单 -->
+      <div class="tracklist reveal">
+        <div class="tracklist__row tracklist__row--head">
+          <span>#</span><span>曲目</span><span>专辑</span><span>时长</span>
+        </div>
+        <div class="tracklist__row"><span>01</span><span>歌曲名称</span><span>专辑占位</span><span>00:00</span></div>
+        <div class="tracklist__row"><span>02</span><span>歌曲名称</span><span>专辑占位</span><span>00:00</span></div>
+        <div class="tracklist__row"><span>03</span><span>歌曲名称</span><span>专辑占位</span><span>00:00</span></div>
+        <div class="tracklist__row"><span>04</span><span>歌曲名称</span><span>专辑占位</span><span>00:00</span></div>
+        <div class="tracklist__row"><span>05</span><span>歌曲名称</span><span>专辑占位</span><span>00:00</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 · 近期行程 -->
+  <section class="section" id="schedule">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow reveal">Schedule</p>
+        <h2 class="h2 reveal">近期行程。</h2>
+        <p class="lede reveal">发布会式的行程表：时间、城市、事件，一目了然。</p>
+      </header>
+
+      <ul class="timeline">
+        <li class="timeline__item reveal">
+          <div class="timeline__date"><span class="timeline__day">00</span><span class="timeline__mon">月份</span></div>
+          <div class="timeline__body">
+            <div class="timeline__tags"><span class="pill pill--live">直播</span><span class="pill">城市</span></div>
+            <h3 class="timeline__title">活动名称占位</h3>
+            <p class="timeline__desc">说明占位：时间、平台、参与方式。</p>
+          </div>
+          <div class="timeline__action"><a class="btn btn--ghost btn--sm" href="#schedule">提醒我</a></div>
+        </li>
+        <li class="timeline__item reveal">
+          <div class="timeline__date"><span class="timeline__day">00</span><span class="timeline__mon">月份</span></div>
+          <div class="timeline__body">
+            <div class="timeline__tags"><span class="pill pill--show">演出</span><span class="pill">城市</span></div>
+            <h3 class="timeline__title">活动名称占位</h3>
+            <p class="timeline__desc">说明占位：场地、开票时间。</p>
+          </div>
+          <div class="timeline__action"><a class="btn btn--ghost btn--sm" href="#schedule">提醒我</a></div>
+        </li>
+        <li class="timeline__item reveal">
+          <div class="timeline__date"><span class="timeline__day">00</span><span class="timeline__mon">月份</span></div>
+          <div class="timeline__body">
+            <div class="timeline__tags"><span class="pill pill--premiere">首播</span><span class="pill">平台</span></div>
+            <h3 class="timeline__title">新剧 / 新歌上线占位</h3>
+            <p class="timeline__desc">说明占位：播出时间与平台。</p>
+          </div>
+          <div class="timeline__action"><a class="btn btn--ghost btn--sm" href="#schedule">提醒我</a></div>
+        </li>
+        <li class="timeline__item reveal">
+          <div class="timeline__date"><span class="timeline__day">00</span><span class="timeline__mon">月份</span></div>
+          <div class="timeline__body">
+            <div class="timeline__tags"><span class="pill pill--fan">见面会</span><span class="pill">城市</span></div>
+            <h3 class="timeline__title">粉丝活动占位</h3>
+            <p class="timeline__desc">说明占位：报名方式与场次。</p>
+          </div>
+          <div class="timeline__action"><a class="btn btn--ghost btn--sm" href="#schedule">提醒我</a></div>
+        </li>
+      </ul>
+
+      <p class="schedule__note reveal">行程以官方公告为准。此处为框架占位，便于后续替换为真实排期。</p>
+    </div>
+  </section>
+
+  <!-- 06 · 数字与更多 -->
+  <section class="section section--stats" id="more">
+    <div class="wrap">
+      <header class="section__head section__head--center">
+        <p class="eyebrow reveal">By the numbers</p>
+        <h2 class="h2 reveal">用数字看他。</h2>
+      </header>
+      <div class="stats">
+        <div class="stat reveal" style="--i:0"><span class="stat__num grad">00</span><span class="stat__label">影视作品</span></div>
+        <div class="stat reveal" style="--i:1"><span class="stat__num grad">00</span><span class="stat__label">音乐作品</span></div>
+        <div class="stat reveal" style="--i:2"><span class="stat__num grad">00</span><span class="stat__label">舞台 / 活动</span></div>
+        <div class="stat reveal" style="--i:3"><span class="stat__num grad">0000</span><span class="stat__label">粉丝数（万）</span></div>
+      </div>
+
+      <div class="grid grid--links">
+        <a class="tile reveal" style="--i:0" href="#more">
+          <h3 class="tile__title">图集</h3>
+          <p class="tile__desc">高清剧照与活动返图</p>
+          <span class="link-arrow">进入<span aria-hidden="true">→</span></span>
+        </a>
+        <a class="tile reveal" style="--i:1" href="#more">
+          <h3 class="tile__title">视频</h3>
+          <p class="tile__desc">花絮、采访与舞台</p>
+          <span class="link-arrow">进入<span aria-hidden="true">→</span></span>
+        </a>
+        <a class="tile reveal" style="--i:2" href="#more">
+          <h3 class="tile__title">官方动态</h3>
+          <p class="tile__desc">微博、工作室与工作室公告</p>
+          <span class="link-arrow">进入<span aria-hidden="true">→</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 · 收尾 -->
+  <section class="section section--outro">
+    <div class="wrap wrap--narrow">
+      <h2 class="outro__title reveal">感谢观看。</h2>
+      <p class="lede reveal">下一位角色，下一首歌，下一次见面。</p>
+      <div class="hero__actions reveal">
+        <a class="btn btn--primary" href="#top">回到顶部</a>
+        <a class="btn btn--ghost" href="#schedule">订阅行程提醒</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__col">
+        <h4>角色</h4>
+        <a href="#roles">全部作品</a>
+        <a href="#roles">最新剧集</a>
+      </div>
+      <div class="footer__col">
+        <h4>音乐</h4>
+        <a href="#music">专辑</a>
+        <a href="#music">单曲</a>
+      </div>
+      <div class="footer__col">
+        <h4>行程</h4>
+        <a href="#schedule">近期活动</a>
+        <a href="#schedule">订阅提醒</a>
+      </div>
+      <div class="footer__col">
+        <h4>关于</h4>
+        <a href="#more">图集</a>
+        <a href="#more">视频</a>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <p>本页面为非官方粉丝向安利页面框架，仅作演示与排版示意使用。所有图片位、文字位均为占位内容，请替换为已获授权的素材。</p>
+      <p>© 2026 占位。保留所有权利。</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
